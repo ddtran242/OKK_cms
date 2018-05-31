@@ -1,0 +1,72 @@
+2018-05-25 04:19:59 Error: [Cake\Console\Exception\MissingShellException] Shell class for "-v" could not be found.
+Exception Attributes: array (
+  'class' => '-v',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('-v')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2018-05-25 07:50:37 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Routes" could not be found.
+Exception Attributes: array (
+  'class' => 'Routes',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('routes')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2018-05-25 07:50:54 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Route" could not be found.
+Exception Attributes: array (
+  'class' => 'Route',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('route')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2018-05-25 07:51:57 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Routes" could not be found.
+Exception Attributes: array (
+  'class' => 'Routes',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('routes')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2018-05-25 08:21:54 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Routes" could not be found.
+Exception Attributes: array (
+  'class' => 'Routes',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('routes')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2018-05-25 08:26:59 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Console/cake" could not be found.
+Exception Attributes: array (
+  'class' => 'Console/cake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\ShellDispatcher->findShell('console/cake')
+#1 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(174): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(125): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\OKK_cms\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
