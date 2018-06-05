@@ -14,6 +14,7 @@ CREATE TABLE admin_info (
 DROP TABLE IF EXISTS `user_acc_info`;
 CREATE TABLE user_acc_info (
     user_account_id INT(8) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id_signin VARCHAR(50) NOT NULL UNIQUE,
     token VARCHAR(255) NOT NULL,
     device_token VARCHAR(255) NOT NULL,
     platform VARCHAR(50) NOT NULL,

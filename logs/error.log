@@ -1929,3 +1929,32 @@ Stack Trace:
 #2 {main}
 
 
+2018-05-31 10:55:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2018-05-31 10:55:15 Error: Fatal Error (1): Call to undefined method DebugKit\Controller\RequestsController::viewBuilder() in [C:\xampp\htdocs\OKK_cms\vendor\cakephp\debug_kit\src\Controller\RequestsController.php, line 51]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2018-05-31 10:55:15 Error: [Cake\Error\FatalErrorException] Call to undefined method DebugKit\Controller\RequestsController::viewBuilder()
+Request URL: /debug_kit/toolbar/e6217df0-5567-4dbb-ab65-9a7cab937257
+Stack Trace:
+#0 C:\xampp\htdocs\OKK_cms\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
