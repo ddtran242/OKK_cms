@@ -23,4 +23,6 @@ return array(
     'Aura\\Intl\\_Config\\' => array($vendorDir . '/aura/intl/config'),
     'App\\Test\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
+    'Api\\Test\\' => array($baseDir . '/plugins/Api/tests'),
+    'Api\\' => array($baseDir . '/plugins/Api/src'),
 );
