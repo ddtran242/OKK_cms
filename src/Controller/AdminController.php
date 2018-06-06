@@ -43,7 +43,7 @@ class AdminController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Admins']
+            'contain' => ['Admin']
         ];
         $this->set('admin', $this->paginate($this->Admin));
         $this->set('_serialize', ['admin']);

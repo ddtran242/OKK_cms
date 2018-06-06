@@ -1,4 +1,3 @@
-<!-- File: src/Template/Users/login.ctp -->
 
 <div class="users form">
     <?= $this->Flash->render() ?>
@@ -6,7 +5,7 @@
     <fieldset>
         <legend><?= __('Please enter your username and password') ?></legend>
         <?= $this->Form->control('login_id') ?>
-        <?= $this->Form->control('password') ?>
+        <?= $this->Form->input('password', array('type' => 'password')); ?>
     </fieldset>
     <?= $this->Form->button(__('Login')); ?>
     <?= $this->Form->end() ?>

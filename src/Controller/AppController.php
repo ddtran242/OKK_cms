@@ -44,6 +44,19 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
         $this->loadComponent('Auth', [
+            'authenticate' => [
+                'Form' => [
+                    'fields' => [
+                        'username' => 'login_id',
+                        'password' => 'password'
+                    ],
+                    'userModel' => 'Admin'
+                ]
+            ],
+            'loginAction' => [
+                'controller' => 'Admin',
+                'action' => 'login'
+            ],
             'loginRedirect' => [
                 'controller' => 'Admin',
                 'action' => 'index'
@@ -58,7 +71,7 @@ class AppController extends Controller
 
     public function beforeFilter(Event $event)
     {
-        $this->Auth->authenticate = array( 'Basic' => array('userModel' => 'Admin'), 'Form' => array('userModel' => 'Admin') );
+        //$this->Auth->authenticate = array( 'Basic' => array('userModel' => 'Admin'), 'Form' => array('userModel' => 'Admin') );
        /* $this->Auth->userModel = 'Admin';
         $this->Auth->loginAction = array('controller' => 'admin', 'action' => 'login');
         $this->Auth->loginRedirect = array('controller' => 'admin', 'action' => 'index');
